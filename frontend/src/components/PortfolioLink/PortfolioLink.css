@@ -1,0 +1,31 @@
+.portfolio__link {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #E8E8E8;
+    height: 69px;
+    margin-bottom: 20px;
+}
+
+.portfolio__link:last-child {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.portfolio__link-name {
+    margin: 0px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.portfolio__link-img {
+    top: 19px;
+    right: 6px;
+    position: absolute;
+    cursor: pointer;
+}
