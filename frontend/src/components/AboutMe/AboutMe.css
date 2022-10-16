@@ -60,3 +60,48 @@
 .aboutMe__photo {
     border-radius: 10px;
 }
+
+@media screen and (max-width: 767px) {
+    .aboutMe {
+        padding: 70px 14px;
+    }
+
+    .aboutMe__info {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin-top: 40px;
+    }
+
+    .aboutMe__box {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .aboutMe__name {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .aboutMe__prof {
+        margin-top: 20px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .aboutMe__about {
+        margin-top: 20px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .aboutMe__gitHub {
+        margin-top: 40px;
+    }
+
+    .aboutMe__photo {
+        border-radius: 10px;
+    }
+
+}

@@ -38,3 +38,44 @@
 .footer__text_gitHub {
     margin-left: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 79px 10px 10px 10px;
+    }
+
+    .footer__title {
+        height: 36px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .footer__under {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer__text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .footer__text_copyright {
+        margin-top: 30px;
+        color: #A0A0A0;
+    }
+
+    .footer__text_gitHub {
+        margin: 12px 0px 0px 0px;
+    }
+}

@@ -10,7 +10,6 @@
 .navTab__box {
     list-style-type: none;
     display: flex;
-    width: 276px;
     justify-content: space-between;
 }
 
@@ -22,7 +21,23 @@
     line-height: 16px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    margin: 0px;
+    margin: 0px 0px 0px 40px;
     padding: 0px;
     cursor: pointer;
+}
+
+.navTab__link:first-child {
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .navTab__box {
+        width: 240px;
+    }
+
+    .navTab__link {
+        font-size: 11px;
+        line-height: 16px;
+        margin-left: 24px;
+    }
 }

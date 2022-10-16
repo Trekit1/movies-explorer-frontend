@@ -3,7 +3,6 @@
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid #E8E8E8;
-    height: 69px;
     margin-bottom: 20px;
 }
 
@@ -13,7 +12,7 @@
 }
 
 .portfolio__link-name {
-    margin: 0px;
+    margin: 0px 0px 19px 0px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -28,4 +27,24 @@
     right: 6px;
     position: absolute;
     cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio__link:last-child {
+        border-bottom: none;
+        margin-bottom: 0px;
+    }
+
+    .portfolio__link-name {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .portfolio__link-img {
+        width: 11px;
+        top: 6px;
+        right: 4px;
+        position: absolute;
+        cursor: pointer;
+    }
 }

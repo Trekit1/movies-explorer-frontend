@@ -1,4 +1,6 @@
 .page {
     margin: 0px auto;
-    width: 1280px;
+    min-width: 320px;
+    max-width: 1280px;
+    outline: 1px solid red;
 }
