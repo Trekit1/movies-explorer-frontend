@@ -39,13 +39,18 @@
     margin-left: 20px;
 }
 
+@media screen and (max-width: 1279px) {
+    .footer {
+        padding: 79px 30px 20px 30px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .footer {
         padding: 79px 10px 10px 10px;
     }
 
     .footer__title {
-        height: 36px;
         font-size: 12px;
         line-height: 15px;
     }

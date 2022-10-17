@@ -61,6 +61,41 @@
     border-radius: 10px;
 }
 
+@media screen and (max-width: 1279px) {
+    .aboutMe {
+        padding: 90px 50px;
+    }
+
+    .aboutMe__name {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .aboutMe__prof {
+        margin: 16px 0px 0px 0px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .aboutMe__about {
+        margin: 20px 0px 0px 0px;
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 364px;
+    }
+
+    .aboutMe__photo {
+        max-width: 255px;
+        max-height: 307px;
+    }
+
+    .aboutMe__gitHub {
+        margin: 87px 0px 0px 0px;
+    }
+
+
+}
+
 @media screen and (max-width: 767px) {
     .aboutMe {
         padding: 70px 14px;
@@ -102,6 +137,7 @@
 
     .aboutMe__photo {
         border-radius: 10px;
+        max-width: 292px;
+        max-height: 352px;
     }
-
 }

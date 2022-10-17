@@ -31,9 +31,6 @@
 }
 
 @media screen and (max-width: 767px) {
-    .navTab__box {
-        width: 240px;
-    }
 
     .navTab__link {
         font-size: 11px;

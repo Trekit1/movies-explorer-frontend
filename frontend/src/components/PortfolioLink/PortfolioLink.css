@@ -8,7 +8,6 @@
 
 .portfolio__link:last-child {
     border-bottom: none;
-    margin-bottom: 0px;
 }
 
 .portfolio__link-name {
@@ -29,11 +28,13 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
-    .portfolio__link:last-child {
-        border-bottom: none;
-        margin-bottom: 0px;
+@media screen and (max-width: 1279px) {
+    .portfolio__link-name {
+        font-size: 28px;
     }
+}
+
+@media screen and (max-width: 767px) {
 
     .portfolio__link-name {
         font-size: 18px;
