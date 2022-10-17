@@ -1,11 +1,12 @@
 import './App.css';
 import Main from '../Main/Main';
+import ErrorNotFound from '../ErrorNotFound/ErrorNotFound';
 
 
 function App() {
     return(
         <div className="page">
-            <Main/>
+            <ErrorNotFound/>
         </div>
     )
 
