@@ -1,0 +1,42 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation__buttonProfile {
+    background-image: url('../../images/profile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32px;
+    width: 100px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    margin: 0px 0px 0px 50px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.navigation__films {
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.navigation__saveFilms {
+    margin: 0px 0px 0px 20px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}

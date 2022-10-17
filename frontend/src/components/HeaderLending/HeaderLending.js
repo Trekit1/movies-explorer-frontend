@@ -1,10 +1,11 @@
 import './HeaderLending.css';
-import logoHeader from '../../images/logoPromoHeader.svg';
+import logo from '../../images/logoPromoHeader.svg';
+import { Route, Link, useHistory } from "react-router-dom";
 
 function HeaderLending() {
     return(
         <header className='header-lending'>
-          <img src={logoHeader} className='header-lending__logo' alt='Logo'/>
+          <img src={logo} className='header-lending__logo' alt='Logo'/>
           <div className='header-lending__links'>
             <p className='header-lending__link'>Регистрация</p>
             <button className='header-lending__button header-lending__link' >Войти</button>
