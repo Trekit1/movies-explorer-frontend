@@ -18,7 +18,6 @@ function Main() {
         <Footer/>
         </>
     )
-
 }
 
 export default Main

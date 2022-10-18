@@ -1,14 +1,19 @@
 import './Navigation.css';
-import { Route, Link, useHistory } from "react-router-dom";
+import { Link} from "react-router-dom";
+import '../App/App.css';
+import Menu from '../Menu/Menu';
 
-function Navigation() {
+
+function Navigation({onOpen}) {
+
     return(
         <div className='navigation'>
-            <Link className='navigation__films'>Фильмы</Link>
-            <Link className='navigation__saveFilms'>Сохраненные фильмы</Link>
-            <Link>
-              <button className='navigation__buttonProfile'></button>
+            <Link to='/movies' className='navigation__films page__link'>Фильмы</Link>
+            <Link to='/saved-movies' className='navigation__save-films page__link'>Сохраненные фильмы</Link>
+            <Link to='/profile'>
+              <button className='navigation__button-profile page__link'></button>
             </Link>
+            <button className='navigation__button-menu page__link' onClick={onOpen}/>
         </div>
     )
 }

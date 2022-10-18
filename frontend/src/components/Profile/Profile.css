@@ -7,7 +7,7 @@
 }
 
 .profile__title {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -34,7 +34,7 @@
 }
 
 .profile__name-string {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
@@ -44,7 +44,7 @@
 }
 
 .profile__user-info {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -54,7 +54,7 @@
 }
 
 .profile__edit-button {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -65,7 +65,7 @@
 }
 
 .profile__logout-button {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -88,8 +88,6 @@
 
         margin-top: 210px;
     }
-
-
 }
 
 @media screen and (max-width:767px) {

@@ -9,12 +9,6 @@
     width: 100%;
 }
 
-.header-lending__logo {
-    width: 38px;
-    height: 38px;
-}
-
-
 .header-lending__links {
     display: flex;
     align-items: center;
@@ -30,6 +24,7 @@
     margin: 0px;
     padding: 0px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .header-lending__button {
