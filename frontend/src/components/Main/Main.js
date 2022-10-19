@@ -5,16 +5,20 @@ import Techs from '../Techs/Techs';
 import AboutMe from '../AboutMe/AboutMe';
 import Portfolio from '../Portfolio/Portfolio';
 import Footer from '../Footer/Footer';
+import HeaderLending from '../HeaderLending/HeaderLending';
 
 function Main() {
     return(
         <>
-        <Promo/>
-        <NavTab/>
-        <AboutProject/>
-        <Techs/>
-        <AboutMe/>
-        <Portfolio/>
+        <HeaderLending/>
+        <main>
+          <Promo/>
+          <NavTab/>
+          <AboutProject/>
+          <Techs/>
+          <AboutMe/>
+          <Portfolio/>
+        </main>
         <Footer/>
         </>
     )

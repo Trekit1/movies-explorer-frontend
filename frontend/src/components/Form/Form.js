@@ -8,7 +8,7 @@ function Form({title, buttonName, question, linkName, children, to}) {
 
     return (
         <form className='form'>
-            <Link to='/'><img src={logo} className='form__logo page__link' alt='logoForm'/></Link>
+            <Link to='/' className='form__logo page__link'><img src={logo} alt='logoForm'/></Link>
             <h2 className='form__title'>{title}</h2>
             {children}
             <p className='form__input-name'>E-mail</p>

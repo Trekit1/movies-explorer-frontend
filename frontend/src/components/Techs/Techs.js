@@ -18,8 +18,6 @@ function Techs() {
                 <li className='techs__tech'>mongoDB</li>
               </ul>
             </div>
-           
-
         </section>
 
     )

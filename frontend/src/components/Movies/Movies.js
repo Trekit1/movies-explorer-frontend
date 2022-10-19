@@ -13,11 +13,13 @@ function Movies({onOpen}) {
     return(
         <>
         <Header onOpen={onOpen}/>
-        <SearchForm/>
-        <MoviesCardList cards= {cards}/>
-        <div className='movies__more'>
-            <button className='movies__more-button page__link'>Еще</button>
-        </div>
+        <main>
+          <SearchForm/>
+          <MoviesCardList cards= {cards}/>
+          <div className='movies__more'>
+              <button type='button' className='movies__more-button page__link'>Еще</button>
+          </div>
+        </main>
         <Footer/>
         </>
     )

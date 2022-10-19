@@ -17,7 +17,6 @@ function AboutMe() {
               </div>
               <img src={photo} className='aboutMe__photo' alt='foto'/>
             </div>
-            
         </section>
     )
 }

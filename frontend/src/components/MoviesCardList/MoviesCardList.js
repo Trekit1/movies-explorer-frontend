@@ -4,10 +4,10 @@ import MoviesCard from '../MoviesCard/MoviesCard'
 function MoviesCardList({cards}) {
    
     return(
-        <div className='moviesCardList'>
+        <section className='moviesCardList'>
             {cards.map((card) => (
                 <MoviesCard name={card}/>))}
-        </div>
+        </section>
     )
 }
 

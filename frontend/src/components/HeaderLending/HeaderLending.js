@@ -12,7 +12,7 @@ function HeaderLending() {
           </Link>
           <div className='header-lending__links'>
             <Link to='/signup' className='header-lending__link page__link'>Регистрация</Link>
-            <Link to='/signin'><button className='header-lending__button header-lending__link page__link' >Войти</button></Link>
+            <Link to='/signin'><button type='button' className='header-lending__button header-lending__link page__link' >Войти</button></Link>
           </div>
         </header>
     )

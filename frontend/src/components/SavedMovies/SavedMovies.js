@@ -11,9 +11,11 @@ function SavedMovies({onOpen}) {
     return(
         <>
         <Header onOpen={onOpen}/>
-        <SearchForm/>
-        <MoviesCardList cards={savedCards}/>
-        <div className='savedMovies__saveddevider'></div>
+        <main>
+          <SearchForm/>
+          <MoviesCardList cards={savedCards}/>
+          <div className='savedMovies__saveddevider'></div>
+        </main>
         <Footer/>
         </>
     )

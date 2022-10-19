@@ -20,8 +20,8 @@ function MoviesCard({name}) {
             <div className='card__under'>
                 <div className='card__info'>
                   <h2 className='card__name'>{name}</h2>
-                  <Route path='/movies'><button className={cardLikeButtonClassName} onClick={like}/></Route>
-                  <Route path='/saved-movies'><button className='card__delete-button page__link'/></Route>
+                  <Route path='/movies'><button type='button' className={cardLikeButtonClassName} onClick={like}/></Route>
+                  <Route path='/saved-movies'><button type='button' className='card__delete-button page__link'/></Route>
                 </div>
                 <p className='card__time'>1ч 47м</p>
             </div>
